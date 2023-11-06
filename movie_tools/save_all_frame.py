@@ -22,7 +22,7 @@ def save_all_frames(video_path, dir_path, basename, ext='jpg'):
         else:
             return
 
-save_all_frames('data/temp/sample_video.mp4', 'data/temp/result', 'sample_video_img')
+#save_all_frames('./serve_cam1.mp4', './cam1_imgs', 'cam1_img')
+save_all_frames('./serve_cam2.mp4', './cam2_imgs', 'cam2_img')
 
 #save_all_frames('data/temp/sample_video.mp4', 'data/temp/result_png', 'sample_video_img', 'png')
-
